@@ -10,7 +10,9 @@ const port = process.env.PORT || 5000;
 // middleware
 app.use(cors({
     origin: [
-        'http://localhost:5173'
+        // 'http://localhost:5173',
+        'https://cars-doctor-6c129.web.app',
+        'https://cars-doctor-6c129.firebaseapp.com'
     ],
     credentials: true
 }));
